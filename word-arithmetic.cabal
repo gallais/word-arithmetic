@@ -17,7 +17,7 @@ extra-source-files:  README.md
 cabal-version:       >=1.10
 
 library
-  exposed-modules:     Data.Word8.Arithmetic
+  exposed-modules:     Data.Word8.Arithmetic, Data.Word16.Arithmetic, Data.Words
   -- other-modules:       
   other-extensions:    MagicHash
   build-depends:       base >=4.7 && <4.8, ghc-prim >=0.3 && <0.4
